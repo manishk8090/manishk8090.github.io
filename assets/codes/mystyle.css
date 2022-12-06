@@ -1,0 +1,80 @@
+.gitimg
+{
+    border-radius: 50%;
+    width: 40vh;
+}
+.logo
+{
+    width:20%;
+}
+h1
+{
+    font-size:5vh;
+}
+.dark-mode
+{
+    background-color: black;
+    color: white;
+}
+body 
+{
+    background-color: white;
+    color: black;
+}
+.day_logo
+{
+    width:100%;
+    filter: invert(50%);
+    margin-top: 4px;
+}
+.butt
+{
+    height: 50px;
+    width: 50px;
+    border: solid;
+    border-radius: 50%;
+    margin-left: auto;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(myfont.ttf);
+  }
+.button1
+{
+    display:block;
+    border: none;
+    width:100px;
+    height:30px;
+    font-size: 20px;
+    background-color: white;
+    font-family: myFirstFont;
+    margin-left: 10px;
+}
+#contactoption:hover .button1
+{
+    width: 120px;
+}
+#contactoption
+{
+    display:none;
+    padding: 10px;
+}
+.dropdown
+{
+    width: 100px;
+    margin-top: 5px;
+    position: fixed;
+}
+.dropdown:hover #contactoption
+{
+    display: block;
+}
+.clogo
+{
+    width: 100px;
+    transition-duration: 200ms;
+}
+.clogo:hover
+{
+    width: 150px;
+}
